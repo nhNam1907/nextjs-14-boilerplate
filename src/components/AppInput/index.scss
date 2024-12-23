@@ -1,0 +1,9 @@
+.app-input {
+  color: $text-color-input;
+
+  input::placeholder {
+    font-weight: 400;
+    opacity: 0.8;
+    color: $text-color-input;
+  }
+}

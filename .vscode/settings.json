@@ -1,0 +1,28 @@
+{
+  "eslint.format.enable": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.organizeImports": "explicit"
+  },
+  "editor.fontLigatures": true,
+  "editor.formatOnSave": true,
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "editor.tabSize": 2,
+  "eslint.validate": ["json"],
+  "[html][css][less][scss][sass][markdown][yaml][yml][jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "cSpell.ignorePaths": [
+    "package.json",
+    "package-lock.json",
+    "yarn.lock",
+    "node_modules",
+    ".git/objects",
+    ".vscode",
+    "dist"
+  ],
+  "cSpell.words": ["antd", "consts", "opms", "OPMS", "Reco", "signin"]
+}

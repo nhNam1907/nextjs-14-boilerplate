@@ -1,0 +1,69 @@
+{
+  "name": "reco-ai-interview",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "prepare": "husky install",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix .",
+    "prettier": "prettier --check .",
+    "prettier:fix": "prettier --write ."
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.5.0",
+    "antd": "^5.22.5",
+    "axios": "^1.7.9",
+    "classnames": "^2.5.1",
+    "dayjs": "^1.11.13",
+    "i18next": "^24.2.0",
+    "i18next-resources-to-backend": "^1.2.1",
+    "lodash": "^4.17.21",
+    "next": "14.2.21",
+    "next-i18n-router": "^5.5.1",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-i18next": "^15.2.0",
+    "react-redux": "^9.2.0",
+    "react-responsive": "^10.0.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^19.6.1",
+    "@commitlint/config-conventional": "^19.6.0",
+    "@eslint/eslintrc": "^3.2.0",
+    "@eslint/js": "^9.17.0",
+    "@types/lodash": "^4.17.13",
+    "@types/node": "^20.17.10",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@typescript-eslint/eslint-plugin": "^8.18.1",
+    "@typescript-eslint/parser": "^8.18.1",
+    "eslint": "^8.57.1",
+    "eslint-config-next": "14.2.21",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "eslint-plugin-react": "^7.37.2",
+    "eslint-plugin-react-hooks": "^5.1.0",
+    "eslint-plugin-react-refresh": "^0.4.16",
+    "eslint-plugin-unused-imports": "^4.1.4",
+    "globals": "^15.14.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^15.2.11",
+    "postcss": "^8",
+    "prettier": "^3.4.2",
+    "prettier-plugin-tailwindcss": "^0.6.9",
+    "sass": "^1.83.0",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5",
+    "typescript-eslint": "^8.18.1"
+  },
+  "lint-stage": {
+    "*.{js,ts,jsx,tsx}": [
+      "yarn lint",
+      "yarn format"
+    ]
+  }
+}
